@@ -2,7 +2,7 @@
 
 ## Toolchain：
 
-1.IDE:VS Code+STM32CubeIDE for VS Code plugin+coretx-debug(by marus25) plugin
+1.IDE:VS Code+STM32CubeIDE for VS Code plugin+cortex-debug(by marus25) plugin
 
 2.Compiler and Debuger:arm-none-eabi-gcc-10.3.1 + gdb
 

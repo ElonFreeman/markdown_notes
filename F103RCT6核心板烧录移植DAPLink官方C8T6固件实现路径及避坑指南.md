@@ -66,16 +66,12 @@ c
 #define DAPLINK_SECTOR_SIZE             0x00000800      // 2KB
 #define DAPLINK_MIN_WRITE_SIZE          0x00000800      // 2KB
 
-
-
 **文件2：`source/target/flash_manager.c`**
 
 c
 
 // 修改 Flash 缓冲区大小
 static uint8_t buf[2048];   // 原为 1024
-
-
 
 **文件3：链接脚本（编译后修改 `build/stm32f103xb_bl.ld`）**
 
@@ -110,8 +106,6 @@ pip uninstall setuptools
 ##### 安装稳定版本（81.0.0）
 
 pip install setuptools==81.0.0# 编译 Bootloader）
-
-
 
 若一切正常，则进行继续以下步骤
 
